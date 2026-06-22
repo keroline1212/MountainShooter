@@ -4,7 +4,7 @@ from code.Entity import Entity
 
 class PlayerShot(Entity):
 
-    def __init__(self, name: str, position: tuple):
+    def __init__(self, name: str, position: tuple) -> None:
         super().__init__(name, position)
 
     def move(self, ):
